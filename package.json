@@ -4,7 +4,6 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "deploy": "tsc && gcloud app deploy",
     "dev": "nodemon src/index.ts",
     "build": "tsc"
   },
@@ -23,5 +22,5 @@
   },
   "author": "Ty Simpson",
   "license": "MIT",
-  "description": ""
+  "description": "A simple discord bot written as a gag"
 }
